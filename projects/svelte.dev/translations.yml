@@ -1,0 +1,98 @@
+# Diese Datei enthält alle Übersetzungen, die über ein normales strg+F, strg+V übersetzt werden können.
+# Damit ist es häufig einfacher, Dateien zu übersetzen, in denen nur ein kleiner Teil übersetzt werden muss.
+
+translations:
+  - files:
+      - src/routes/index.svelte
+    translations:
+      Cybernetically enhanced web apps: Kybernetisch verbesserte Web-Apps
+      Write less code: Weniger Code.
+      Build boilerplate-free components using languages you already know — HTML, CSS and JavaScript: Schreibe boilerplatefreie Komponenten in Sprachen, die du bereits kennst - HTML, CSS und JavaScript
+      No virtual DOM: Kein virtual DOM
+      Svelte compiles your code to tiny, framework-less vanilla JS — your app starts fast and stays fast: Svelte kompiliert deinen Code zu kleinem, frameworklosen vanilla JS - deine App startet und bleibt schnell
+      Truly reactive: Wirklich reaktiv
+      No more complex state management libraries — Svelte brings reactivity to JavaScript itself: Keine komplexen State Management Bibliotheken mehr - Svelte führt Reaktivität in JavaScript selbst ein
+      Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the: Svelte ist ein radikal neuer Ansatz zum Erstellen von Benutzeroberflächen. Während traditionelle Frameworks wie React und Vue das meiste ihrer Arbeit im
+      ">browser<": ">Browser<"
+      ", Svelte shifts that work into a": " erledigen, bewegt Svelte diese Arbeit in einen"
+      compile step: Kompilierungsschritt
+      that happens when you build your app.: der stattfindet, wenn du deine App baust.
+      Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.: Statt auf Techniken wie virtual DOM Diffing zu setzten, produziert Svelte Code, der chirurgisch den DOM anpasst, wenn sich der Zustand deiner App verändert.
+      Read the introductory blog post: Lies den Einführungs Blog-Post
+      to learn more.: um mehr zu erfahren.
+      "# or download and extract": "# Oder downloade und entpacke"
+      this .zip file: diese .zip Datei
+      learn more: Erfahre mehr
+      See the: Schau dir den
+      quickstart guide: Quickstart Guide
+      for more information.: für mehr Informationen an.
+      Learn Svelte: Lerne Svelte
+      Svelte components are built on top of HTML. Just add data.: Svelte Komponenten werden mit HTML gebaut. Füge einfach Daten hinzu.
+      CSS is component-scoped by default — no more style collisions or specificity wars. Or you can: CSS ist standardmäßig auf die eine Komponente beschränkt - keine Style Kollisionen oder Spezifität-Kriege mehr. Oder benutze
+      use your favourite CSS-in-JS library: deine lieblings CSS-in-JS Bibliothek
+      Trigger efficient, granular updates by assigning to local variables. The compiler does the rest.: Löse granulare, effiziente Änderungen mit dem Zuweisen von lokalen Variablen aus. Der Compiler kümmert sich um den Rest.
+      Build beautiful UIs with a powerful, performant transition engine built right into the framework.: Baue wunderschöne UIs mit einer mächtigen, performanten Übergangs-Engine, die direkt im Framework integriert ist.
+      Who's using Svelte?: Wer benutzt Svelte?
+      <h3>Contributors</h3>: <h3>Mitwirkende</h3>
+      Svelte is free and open source software, made possible by the work of dozens of volunteers.: Svelte ist kostenlos und eine Open-Source Software, die durch die Arbeit von dutzenden Freiwilligen ermöglicht wird.
+      Join us!: Mache mit!
+
+  - files:
+      - src/routes/_components/WhosUsingSvelte.svelte
+    translations:
+      + your company?: + deine Firma?
+
+  - files:
+      - src/routes/_layout.svelte
+    translations:
+      Examples: Beispiele
+
+  - files:
+      - src/routes/tutorial/[slug]/index.svelte
+    translations:
+      ">Next<": ">Weiter<"
+      ">Edit this chapter<": ">Bearbeite dieses Kapitel<"
+      "'Reset'": "'Zurücksetzen'"
+      "'Show me'": "'Zeig es mir'"
+      "const tutorial_repo_link = 'https://github.com/sveltejs/svelte/tree/master/site/content/tutorial';": const tutorial_repo_link = 'https://github.com/fausttobias/svelte3-translation-de/tree/master/repos/svelte/content/tutorial';
+
+  - files: src/template.html
+    translations:
+      "<html lang='en'": "<html lang='de'"
+
+  - files: src/components/Repl/ReplWidget.svelte
+    translations:
+      "'loading...'": "'laden...'"
+
+  ############
+  # Examples #
+  ############
+
+  - files:
+      - content/examples/00-introduction/00-hello-world/App.svelte
+    translations:
+      "'world'": "'Welt'"
+      Hello: Hallo
+
+  - files:
+      - content/examples/00-introduction/01-dynamic-attributes/App.svelte
+    translations:
+      is short for: ist eine Kurzschreibweise für
+      '"{name} dancing"': '"Tanzender {name}"'
+
+  - files:
+      - content/examples/00-introduction/02-styling/App.svelte
+    translations:
+      Styled!: gestylt!
+
+  - files:
+      - content/examples/00-introduction/03-nested-components/App.svelte
+      - content/examples/00-introduction/03-nested-components/Nested.svelte
+    translations:
+      These styles...: Diese styles...
+      ...don't affect this element: ...beeinflussen dieses Element nicht
+
+  - files:
+      - content/examples/00-introduction/04-html-tags/App.svelte
+    translations:
+      "`here's some <strong>HTML!!!</strong>`": "`Hier ist etwas <strong>HTML!!!</strong>`"
