@@ -2,7 +2,7 @@
   "name": "svelte3-translation-de",
   "version": "0.0.0",
   "main": "index.js",
-  "author": "Tobias Faust <tf@ambimax.de> (https://github.com/FaustTobias)",
+  "author": "Tobias Faust <tobias@faustnet.de> (https://github.com/FaustTobias)",
   "license": "MIT",
   "private": true,
   "scripts": {
