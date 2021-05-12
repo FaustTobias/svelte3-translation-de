@@ -11,7 +11,7 @@
   "devDependencies": {
     "chokidar": "^3.4.0",
     "glob": "^7.1.6",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "yaml": "^1.10.0"
   }
 }
